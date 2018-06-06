@@ -21,6 +21,8 @@ header{margin-top: 20px}
     .logo{display: none;}
     .logo_min{
         margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
         width: 220px;
         display: block;}
 
