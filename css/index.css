@@ -1,48 +1,38 @@
+header{margin-top: 20px}
 
-.principal{margin-top: 30px;}
-/*.es{background-color: #c3c3c3;}
+/*#div_logo{background-color: blue}*/
+.logo{width: 220px;}
+.logo_min{display: none;}
 
-.me{background-color: #5f5f;}
+/*#div_search{background-color:darkgreen}
+#div_dados{background-color: darkorchid}*/
+#form-search{}
+#search{margin-top: 20px;}
+.dados{ margin-top: 28px;}
 
-.di{background-color: #f4f4;}
-*/
-img{height: 70px;}
-#pesquisar{margin-top: 20px;}
-.dados{margin-top: 28px;}
-#navbar{margin-top: 30px;}
-#esquerda{
-	padding: 20px;
+#menu{margin-top: 20px;}
+#menu_mobile{display: none;}
 
-}
-#direita{
-	margin-top: 3px;
-
-}
-#corpo{
-	margin-top: 30px; 
-}
-.login{
-	padding: 10px;
-	background-color: #ffffff;
-	border: 1px solid;
-	border-radius: 5px;
+@media (max-width: 320px) {
+    header{margin-top: 0;}
+    #menu_mobile{display: block;}
+    #menu{display: none;}
+    .logo{
+        width: 150px;
+        margin-top: 20px;
+        margin-left: 60px;
+        
+    }
 }
 
-h4{
-	padding: 10px;
-	border-bottom: 1px solid;
-}
-footer{
-	color: #ffffff;
-	font-size: 12px;
-	background-color: #000000;
-	position: fixed;
-    bottom:0;
-    left:0;
-    width: 100%
-}
-
-@font-face {
-     font-family: helveticaneue;
-     src: url('HelveticaNeueLTStd-UltLt.otf');
+@media (max-width: 576px) {
+    header{margin-top: 0;}
+    #menu_mobile{display: block;}
+    #menu{display: none;}
+    .logo{
+        width: 250px;
+        margin-top: 20px;
+        margin-left: 60px;
+        
+    }
 }
