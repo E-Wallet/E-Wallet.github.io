@@ -13,18 +13,6 @@ header{margin-top: 20px}
 #menu{margin-top: 20px;}
 #menu_mobile{display: none;}
 
-@media (max-width: 320px) {
-    header{margin-top: 0;}
-    #menu_mobile{display: block;}
-    #menu{display: none;}
-    .logo{
-        width: 150px;
-        margin-top: 20px;
-        margin-left: 60px;
-        
-    }
-}
-
 @media (max-width: 576px) {
     header{margin-top: 0;}
     #menu_mobile{display: block;}
